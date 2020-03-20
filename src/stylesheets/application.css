@@ -1,7 +1,29 @@
-@import url('~normalize.css/normalize.css');
+@import url('~bootstrap/dist/css/bootstrap.css');
+/* @import url('~normalize.css/normalize.css');
 
 * {
   box-sizing: border-box;
-}
+} */
 
 /* TODO */
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  padding-top: 2rem;
+  background-color: mintcream;
+}
+
+button{
+  border: 2px solid navy;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+  color: navy;
+  background-color: white;
+}
+
+#reset{
+  color: white;
+  background-color: navy;
+  padding: 0 .6rem;
+}

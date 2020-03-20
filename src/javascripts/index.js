@@ -5,3 +5,10 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
 //TODO
+import "bootstrap"
+
+let f = document.getElementById("myForm")
+f.onsubmit = function displayMessage(){
+    let n = document.getElementById("Name").value
+    alert("Welcome "+ n + "!")
+}
